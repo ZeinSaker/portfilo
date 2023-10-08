@@ -1,0 +1,332 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 28, 2021, 5:45:45 PM
+    Author     : lenovo
+*/
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+body {
+    /*background-image: url("../Imgs/background.png");*/
+    margin: 0px 20px;
+    align-items: center;
+    background-color: #1c1d25;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section{
+    padding-top: 100px;
+}
+
+
+.cv-section{
+    /*background-color: #666a8a;*/
+    background-color: #1c1d25;
+
+}
+.section-main {
+    font-size: 40px;
+    height: 110vh;
+    background-color: #1c1d25;
+    color: white;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    background-color: #1c1d25;
+}
+.myLogo{
+    width: 200px;
+    justify-content: space-around;
+}
+ul{
+    width: 400px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+.personal-list{
+    color: #fcb605;
+    display: list-item;
+    align-items: center;
+}
+.skills-list{
+    color: #fcb605;
+    display: list-item;
+    align-items: center;
+}
+.navbar{
+    justify-content: space-between;
+}
+li{
+   font-size: 18px;
+}
+li.info-element{
+    display: flex;
+    font-size: 18px;
+    margin: 10px 0px;
+    align-items: center;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 15px 0px;
+    text-align: center;
+    padding-right: 160px;
+}
+h2{
+    color: #f7d00a;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin: 10px 20px;
+}
+hr{
+    border-color: #7b8ead;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #1c1d25;  
+    color: wheat ;
+    text-align: center;
+    padding:  5px 0px;
+}
+
+.paraPhoto{
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.media{
+    text-align: right;
+    display:list ;
+    font-size: 30px;
+    width: 200px;
+    margin: 0px 20px;
+}
+p{
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+p.deifintions{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+p.contact-para{
+    font-size: 25px;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: 0px 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.myPc{
+    width: 220px;
+    margin: 0px 60px 60px 60px;
+    border-radius: 52%;
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 2px; 
+
+}
+.social{
+    margin: 10px 0px;
+}
+.button{
+    width:90px;
+    height: 50;
+    background-color: #ffce0a;
+    color: #1c1d25;
+    border-radius: 24px;
+    border-style: outset;
+    border-color: yellow;
+    font-size:25px;
+    text-align: center;
+}
+.resume{
+    display: flex;
+    background-color: #1c1d25;
+}
+
+.resume-left{
+    width: 40%;
+    /*background-color: #666a8a;*/
+    background-color: #1c1d25;
+}
+
+.resume-right{
+    color: white;
+    width: 60%;
+    /*background-color:#666a8a;*/
+    background-color: #1c1d25;
+        /*#3e4052;*/
+}
+.resume-med{
+    padding-top: 50px;
+    margin-bottom:  1px;
+    border: white  solid 2px;
+}
+.Intro{
+    padding-bottom:100px;
+}
+.cv-part{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0px 25%;
+}
+.cv-part-right{
+    display: flex;
+    margin: 0px 36%;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.skill-bar{
+    margin: 0px 10px;
+    height: 20px;
+    align-content:  center;
+    width:  60%;
+    background-color: #8f7425;
+    border-radius: 10px; 
+}
+/*#a6882e*/
+.skill-pro{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    background-color: #edb91c;
+    border-radius: 10px;
+}
+.language-bar{
+    width: 30%;
+    display: flex;
+   background-color: #1c1d25;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.circle-prog{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    background-color: blue;
+}
+.dark{
+   background-color: #edb91c;
+}
+.light{
+    background-color: #8f7425;
+}
+.education-table{
+   display: flex;
+   margin: 16px 0px;
+}
+.table-data-left{
+    color: white; 
+    font-size: 20px;
+    margin-left:30px;
+    width: 30%;
+}
+.table-data-right{
+        font-size: 20px;
+        width: 70%;
+}
+span{
+    color: #fcb605;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hobby-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.hobby-item{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    align-content: center;
+}
+.contact{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .resume{    
+    display: flex;
+    flex-direction: column;
+    }
+    .resume-left{
+        background-color: #1c1d25;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0px 25%;
+    }
+    .resume-right{
+        background-color: #1c1d25;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0px 25%;
+    }
+    .resume-med{
+        display: none;
+    }
+    .section-main{
+        height: auto;
+    }
+    .skills{
+        align-items:  center;
+    }
+    .contact{
+        width: 100%;
+        text-align: center;
+        padding: 0px 25%; 
+    }
+    footer{
+            width: 100%;
+            margin: 0px 25%; 
+            text-align: center;
+    }
+    .cv-section{
+        background-color: #1c1d25;
+    }
+} 
